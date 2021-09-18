@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap');
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: var(--Pale-blue);
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+
+p.description {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+button {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.hero {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+}
+
+.pricing {
+    margin: 20px auto 30px;
+    padding: 10px;
+    background-color: var(--Very-pale-blue);
+    height: 90px;
+    width: 70%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Container .pricing article {
+    display: flex;
+    align-items: center;
+}
+
+.Container .pricing article img {
+    margin: 15px
+}
+
+.bg__image {
+    background: url("./images/pattern-background-mobile.svg") no-repeat center/cover;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.btn-change {
+    background-color: transparent;
+    color: var(--Bright-blue);
+    text-decoration: underline;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--Bright-blue);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 41px -17px var(--Bright-blue);
+    font-weight: bold;
+    border: none;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    opacity: 0.8;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--Desaturated-blue);
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.Container .buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 67.5px 10px;
+}
+
+.Container {
+    background-color: white;
+    margin: 100px auto;
+    width: 450px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    box-shadow: 3px 3px 3px hsl(228, 45%, 44%);
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    margin: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media ( min-width: 768px) {
+    .bg__image {
+        background: url("./images/pattern-background-desktop.svg") no-repeat center/cover;
+        height: 50vh;
+    }
+}
