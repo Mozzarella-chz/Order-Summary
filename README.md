@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://github.com/Mozzarella-chz/Order-Summary/blob/89e690901a56289bed211b8c21e1592e14bf5b84/images/desktop-preview.jpg)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
