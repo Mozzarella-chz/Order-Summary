@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-<imng src=
-"https://github.com/Mozzarella-chz/Order-Summary/blob/833346ccf3305446d0bf395b896ab2d98714b0a4/Order%20Summary%20Final%20Screen%20shot.jpg" width="200">
+<img src=
+"https://github.com/Mozzarella-chz/Order-Summary/blob/833346ccf3305446d0bf395b896ab2d98714b0a4/Order%20Summary%20Final%20Screen%20shot.jpg" width="800">
 
 
 ### Links
