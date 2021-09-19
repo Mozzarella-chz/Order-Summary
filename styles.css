@@ -131,6 +131,10 @@ h1 {
     margin: 20px;
 }
 
+h2{ font-weight: 800;
+    color: #1f2f56;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
